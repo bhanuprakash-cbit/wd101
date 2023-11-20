@@ -38,8 +38,8 @@ let displayData = () => {
   <th class="px-4 py-2">Name</th>
   <th class="px-4 py-2">Email</th>
   <th class="px-4 py-2">Password</th>
-  <th class="px-4 py-2">DoB</th>
-  <th class="px-4 py-2">AcceptedTerms?</th>
+  <th class="px-4 py-2">dob</th>
+  <th class="px-4 py-2">accepted terms?</th>
   </tr>${tableRows}</table>`;
 
   let table = document.getElementById("user-entries");
